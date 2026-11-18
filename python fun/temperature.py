@@ -1,4 +1,4 @@
-def coversion(value, unit ='c'):
+def temperature_converter(value, unit ='c'):
     if unit == 'c':
         f = (c*9/5)+32
         if f >= 30:
